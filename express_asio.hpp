@@ -285,7 +285,7 @@ class BasicResponse {
     SC(506, "Variant Also Negotiates");
     SC(510, "Not Extended");
     SC(511, "Network Authentication Required");
-
+#undef SC
     os << "Unknown";
   }
 
